@@ -3,7 +3,9 @@ Aqui está o arquivo README.md baseado nas instruções fornecidas:
 ```markdown
 # Projeto Estacionamento - Frontend
 
-Este projeto consiste em uma aplicação simples de gerenciamento de estacionamento com cadastro, listagem e edição de proprietários e veículos, desenvolvido em React Native com navegação Stack, Axios para consumo de API e estilização básica.
+Este projeto consiste em uma aplicação simples de gerenciamento de estacionamento com cadastro,
+ listagem e edição de proprietários e veículos, desenvolvido em React Native com navegação Stack,
+ Axios para consumo de API e estilização básica.
 
 ## Requisitos
 
@@ -100,7 +102,8 @@ npm run web
 
 ### Modificação do App.js
 
-O arquivo `App.js` gerencia as telas principais do app utilizando o `createStackNavigator` do React Navigation. Certifique-se de configurar as telas e rotas corretamente para garantir o funcionamento da navegação.
+O arquivo `App.js` gerencia as telas principais do app utilizando o `createStackNavigator` do React Navigation.
+Certifique-se de configurar as telas e rotas corretamente para garantir o funcionamento da navegação.
 
 ### Executando a Aplicação
 
