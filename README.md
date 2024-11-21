@@ -51,7 +51,7 @@ CREATE TABLE veiculo (
 Exemplo de uma rota para listar proprietários:
 
 javascript
-Copiar código
+
 const express = require('express');
 const mysql = require('mysql');
 const app = express();
@@ -81,18 +81,18 @@ app.listen(8081, () => {
 Crie o projeto com Expo:
 
 bash
-Copiar código
+
 npx create-expo-app@latest estacionamento-frontend
 Instale as dependências adicionais necessárias:
 
 bash
-Copiar código
+
 npm install axios @react-navigation/native react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated react-native-elements react-native-vector-icons
 2.2 Estrutura do Projeto
 Organize o projeto da seguinte maneira:
 
 css
-Copiar código
+
 src/
 ├── assets/
 ├── pages/
@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
 Código para listar os proprietários que estão cadastrados no banco de dados:
 
 javascript
-Copiar código
+
 import { FlatList, View, Text } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -165,7 +165,7 @@ export default function ProprietarioList() {
 Exemplo de formulário para cadastrar um novo proprietário:
 
 javascript
-Copiar código
+
 import { View, Text, SafeAreaView, TextInput, Pressable } from 'react-native';
 import React, { useState } from "react";
 import axios from "axios";
@@ -221,7 +221,7 @@ export default function ProprietarioForm() {
 Exemplo de código para editar as informações de um proprietário existente:
 
 javascript
-Copiar código
+
 import React, { useState } from 'react';
 import { View, Text, TextInput, SafeAreaView, Pressable } from 'react-native';
 import axios from 'axios';
